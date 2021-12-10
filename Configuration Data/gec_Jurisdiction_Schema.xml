@@ -1,0 +1,36 @@
+<entities >
+  <entity name="lulu_jurisdiction" displayname="Jurisdiction" etc="10442" primaryidfield="lulu_jurisdictionid" primarynamefield="lulu_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="lulu_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Jurisdiction" name="lulu_jurisdictionid" type="guid" primaryKey="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="lulu_name" type="string" customfield="true" />
+      <field displayname="Organization Id" name="organizationid" type="entityreference" lookupType="organization" />
+      <field displayname="Parent Jurisdiction" name="lulu_parent_jurisdiction" type="entityreference" lookupType="lulu_jurisdiction" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Tax Name" name="lulu_tax_name" type="string" customfield="true" />
+      <field displayname="Tax Rate" name="lulu_tax_rate" type="decimal" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Warehouse" name="lulu_site" type="entityreference" lookupType="site" customfield="true" />
+      <field displayname="Carrier Service Code" name="lulu_carrierservicecode" type="string" customfield="true" />
+      <field displayname="Enterprise Code" name="lulu_enterprisecode" type="string" customfield="true" />
+      <field displayname="Ext Selling Store No" name="lulu_extsellingstoreno" type="string" customfield="true" />
+      <field displayname="OSC Country Code" name="lulu_osccountrycode" type="string" customfield="true" />
+      <field displayname="Payment Rule ID" name="lulu_paymentruleid" type="string" customfield="true" />
+      <field displayname="ProvinceStateCode" name="lulu_provincestatecode" type="string" customfield="true" />
+      <field displayname="Seller Organization Code" name="lulu_sellerorganizationcode" type="string" customfield="true" />
+      <field displayname="Ship Node" name="lulu_shipnode" type="string" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+</entities>
