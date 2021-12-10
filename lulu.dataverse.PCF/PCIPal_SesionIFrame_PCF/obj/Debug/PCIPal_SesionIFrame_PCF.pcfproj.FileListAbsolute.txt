@@ -1,2 +1,0 @@
-C:\Users\sergio.i.hernandez\Desktop\Code\lululemon\GEC DEV\lulu.dataverse.PCF\PCIPal_SesionIFrame_PCF\obj\Debug\PCIPal_SesionIFrame_PCF.pcfprojAssemblyReference.cache
-C:\Users\sergio.i.hernandez\Desktop\Code\lululemon\GEC DEV\lulu.dataverse.PCF\PCIPal_SesionIFrame_PCF\obj\Debug\PCIPal_SesionIFrame_PCF.pcfproj.CoreCompileInputs.cache
